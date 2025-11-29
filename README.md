@@ -150,7 +150,7 @@ Menghasilkan:
 ### 4. **Evaluasi**
 
 - **Korelasi Pearson**: Skor sistem vs manusia
-- **Target**: r ≥ 0.76 (from penelitian)
+- **Target**: r ≥ 0.76 (dari penelitian)
 - **Validasi**: p-value < 0.05 untuk signifikansi
 - **Metrik Kesalahan**: MAE, RMSE, tingkat kesepakatan (agreement rates)
 
