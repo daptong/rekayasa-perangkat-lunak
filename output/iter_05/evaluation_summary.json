@@ -1,0 +1,325 @@
+{
+  "overall_metrics": {
+    "pearson_r": 0.8945533612385355,
+    "pearson_p_value": 2.0809336239110586e-18,
+    "spearman_r": 0.8648156363257506,
+    "spearman_p_value": 5.711481883773862e-16,
+    "mae": 3.3092156001894386,
+    "rmse": 4.160878987286487,
+    "mean_bias": 2.3205496048961916,
+    "agreement_within_5": 90.0,
+    "agreement_within_10": 94.0,
+    "num_samples": 50,
+    "target_correlation": 0.76,
+    "meets_target": "True"
+  },
+  "variation_metrics": [
+    {
+      "variation_type": "combination_errors",
+      "num_samples": 5,
+      "pearson_r": 0.7009388188587871,
+      "p_value": 0.18726731041760594,
+      "mae": 7.2279679241048225,
+      "rmse": 8.57164813919616,
+      "mean_bias": 7.2279679241048225,
+      "mean_system_score": 76.95919438648376,
+      "mean_human_score": 69.73122646237894
+    },
+    {
+      "variation_type": "extra_classes",
+      "num_samples": 5,
+      "pearson_r": 0.22877378461153625,
+      "p_value": 0.7112773423179091,
+      "mae": 2.631536252156542,
+      "rmse": 3.1737752894756612,
+      "mean_bias": 2.631536252156542,
+      "mean_system_score": 85.67920620355623,
+      "mean_human_score": 83.0476699513997
+    },
+    {
+      "variation_type": "minor_semantic",
+      "num_samples": 10,
+      "pearson_r": 0.5618403100143549,
+      "p_value": 0.09097760470661972,
+      "mae": 3.177996169914863,
+      "rmse": 3.746465460327743,
+      "mean_bias": 2.3810249638394394,
+      "mean_system_score": 90.21969080105944,
+      "mean_human_score": 87.83866583722
+    },
+    {
+      "variation_type": "missing_attributes",
+      "num_samples": 5,
+      "pearson_r": 0.9809022668914265,
+      "p_value": 0.0031590649877753694,
+      "mae": 1.61206311438317,
+      "rmse": 1.881525035521132,
+      "mean_bias": 0.2585202700732282,
+      "mean_system_score": 79.21800204048722,
+      "mean_human_score": 78.95948177041399
+    },
+    {
+      "variation_type": "missing_classes",
+      "num_samples": 5,
+      "pearson_r": 0.8850026321763702,
+      "p_value": 0.04599693085589294,
+      "mae": 2.349387426191504,
+      "rmse": 2.691966330899405,
+      "mean_bias": -0.5421862559365536,
+      "mean_system_score": 76.63219778936092,
+      "mean_human_score": 77.17438404529747
+    },
+    {
+      "variation_type": "missing_methods",
+      "num_samples": 5,
+      "pearson_r": 0.9910879869477524,
+      "p_value": 0.0010085934901720983,
+      "mae": 2.8761911781917973,
+      "rmse": 3.0767030759431595,
+      "mean_bias": 2.8761911781917973,
+      "mean_system_score": 81.37333802864703,
+      "mean_human_score": 78.49714685045522
+    },
+    {
+      "variation_type": "perfect_translation",
+      "num_samples": 5,
+      "pearson_r": NaN,
+      "p_value": NaN,
+      "mae": 2.972223530288306,
+      "rmse": 3.4037350667832755,
+      "mean_bias": 0.6030310353159336,
+      "mean_system_score": 89.85730426994462,
+      "mean_human_score": 89.25427323462868
+    },
+    {
+      "variation_type": "spelling_errors",
+      "num_samples": 5,
+      "pearson_r": 0.6238789146106897,
+      "p_value": 0.2607121098611654,
+      "mae": 2.884808356997411,
+      "rmse": 3.4752176100459167,
+      "mean_bias": 1.2063998376261567,
+      "mean_system_score": 90.5990158344139,
+      "mean_human_score": 89.39261599678775
+    },
+    {
+      "variation_type": "wrong_relationships",
+      "num_samples": 5,
+      "pearson_r": 1.0,
+      "p_value": 0.0,
+      "mae": 4.18198587975111,
+      "rmse": 4.1947181456878635,
+      "mean_bias": 4.18198587975111,
+      "mean_system_score": 83.84328154566393,
+      "mean_human_score": 79.66129566591282
+    }
+  ],
+  "confusion_matrix": {
+    "Poor": {
+      "Poor": 0,
+      "Fair": 0,
+      "Good": 0,
+      "Excellent": 0
+    },
+    "Fair": {
+      "Poor": 0,
+      "Fair": 1,
+      "Good": 0,
+      "Excellent": 0
+    },
+    "Good": {
+      "Poor": 0,
+      "Fair": 1,
+      "Good": 40,
+      "Excellent": 4
+    },
+    "Excellent": {
+      "Poor": 0,
+      "Fair": 0,
+      "Good": 1,
+      "Excellent": 3
+    }
+  },
+  "high_error_cases": [
+    {
+      "diagram_id": "student_049",
+      "similarity_score": 81.20521387638283,
+      "ged_value": 5.09185648287336,
+      "max_possible_ged": 22.0,
+      "normalized_ged": 0.23144802194878908,
+      "semantic_score": 58.16450537670226,
+      "structural_score": 85.71428571428572,
+      "relationship_score": 37.5,
+      "details": {
+        "nodes_key": 7,
+        "nodes_student": 6,
+        "nodes_matched": 6,
+        "nodes_missing": 1,
+        "nodes_extra": 0,
+        "edges_key": 8,
+        "edges_student": 3,
+        "edges_wrong_type": 0,
+        "edges_missing": 5,
+        "edges_extra": 0,
+        "total_name_cost": 8.785453870892525,
+        "total_attr_cost": 7.548806301752727,
+        "total_method_cost": 9.03422333796819
+      },
+      "num_edit_operations": 21,
+      "edit_operations_summary": {
+        "node_substitutions": 21,
+        "edge_wrong_types": 0,
+        "total_operations": 21
+      },
+      "variation_type": "combination_errors",
+      "expected_score_range": [
+        40,
+        60
+      ],
+      "modifications": [
+        "Removed class: Pesanan",
+        "Removed attribute idPengiriman from Pengiriman",
+        "Removed attribute idProduk from Produk",
+        "Changed relationship rel_5 to association",
+        "Changed relationship rel_4 to association"
+      ],
+      "human_score": 70.0,
+      "nodes_key": 7,
+      "nodes_student": 6,
+      "nodes_matched": 6,
+      "nodes_missing": 1,
+      "nodes_extra": 0,
+      "edges_key": 8,
+      "edges_student": 3,
+      "edges_wrong_type": 0,
+      "system_category": "Good",
+      "human_category": "Good",
+      "error": 11.205213876382828,
+      "abs_error": 11.205213876382828
+    },
+    {
+      "diagram_id": "student_047",
+      "similarity_score": 81.04243083734235,
+      "ged_value": 5.146273591121037,
+      "max_possible_ged": 22.0,
+      "normalized_ged": 0.23392152686913806,
+      "semantic_score": 55.87692310412724,
+      "structural_score": 85.71428571428572,
+      "relationship_score": 50.0,
+      "details": {
+        "nodes_key": 7,
+        "nodes_student": 6,
+        "nodes_matched": 6,
+        "nodes_missing": 1,
+        "nodes_extra": 0,
+        "edges_key": 8,
+        "edges_student": 6,
+        "edges_wrong_type": 2,
+        "edges_missing": 2,
+        "edges_extra": 0,
+        "total_name_cost": 9.265846148133278,
+        "total_attr_cost": 8.97026573419571,
+        "total_method_cost": 8.589135736227036
+      },
+      "num_edit_operations": 23,
+      "edit_operations_summary": {
+        "node_substitutions": 21,
+        "edge_wrong_types": 2,
+        "total_operations": 23
+      },
+      "variation_type": "combination_errors",
+      "expected_score_range": [
+        40,
+        60
+      ],
+      "modifications": [
+        "Removed class: Produk",
+        "Removed attribute idPembayaran from Pembayaran",
+        "Removed attribute idKeranjang from KeranjangBelanja",
+        "Changed relationship rel_4 to association",
+        "Changed relationship rel_3 to composition"
+      ],
+      "human_score": 70.0,
+      "nodes_key": 7,
+      "nodes_student": 6,
+      "nodes_matched": 6,
+      "nodes_missing": 1,
+      "nodes_extra": 0,
+      "edges_key": 8,
+      "edges_student": 6,
+      "edges_wrong_type": 2,
+      "system_category": "Good",
+      "human_category": "Good",
+      "error": 11.042430837342351,
+      "abs_error": 11.042430837342351
+    },
+    {
+      "diagram_id": "student_046",
+      "similarity_score": 80.7087747114408,
+      "ged_value": 5.258498321473598,
+      "max_possible_ged": 22.0,
+      "normalized_ged": 0.23902265097607264,
+      "semantic_score": 57.320366657915564,
+      "structural_score": 85.71428571428572,
+      "relationship_score": 50.0,
+      "details": {
+        "nodes_key": 7,
+        "nodes_student": 6,
+        "nodes_matched": 6,
+        "nodes_missing": 1,
+        "nodes_extra": 0,
+        "edges_key": 8,
+        "edges_student": 6,
+        "edges_wrong_type": 2,
+        "edges_missing": 2,
+        "edges_extra": 0,
+        "total_name_cost": 8.96272300183773,
+        "total_attr_cost": 8.555062708258628,
+        "total_method_cost": 6.532132426897683
+      },
+      "num_edit_operations": 23,
+      "edit_operations_summary": {
+        "node_substitutions": 21,
+        "edge_wrong_types": 2,
+        "total_operations": 23
+      },
+      "variation_type": "combination_errors",
+      "expected_score_range": [
+        40,
+        60
+      ],
+      "modifications": [
+        "Removed class: Faktur",
+        "Removed attribute idPengiriman from Pengiriman",
+        "Removed attribute idPembayaran from Pembayaran",
+        "Changed relationship rel_4 to aggregation",
+        "Changed relationship rel_3 to aggregation"
+      ],
+      "human_score": 70.0,
+      "nodes_key": 7,
+      "nodes_student": 6,
+      "nodes_matched": 6,
+      "nodes_missing": 1,
+      "nodes_extra": 0,
+      "edges_key": 8,
+      "edges_student": 6,
+      "edges_wrong_type": 2,
+      "system_category": "Good",
+      "human_category": "Good",
+      "error": 10.708774711440796,
+      "abs_error": 10.708774711440796
+    }
+  ],
+  "agreement_rates": {
+    "within_3": 54.0,
+    "within_5": 90.0,
+    "within_7": 92.0,
+    "within_10": 94.0,
+    "within_15": 100.0
+  },
+  "statistical_significance": {
+    "is_significant": "<CircularRef:bool_>",
+    "significance_level": 0.05,
+    "p_value": 2.0809336239110586e-18
+  }
+}

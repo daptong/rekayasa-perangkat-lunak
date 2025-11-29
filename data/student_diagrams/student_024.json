@@ -1,0 +1,246 @@
+{
+  "diagram_id": "student_024",
+  "language": "bahasa_indonesia",
+  "classes": [
+    {
+      "id": "class_3",
+      "name": "Produk",
+      "attributes": [
+        {
+          "name": "idProduk",
+          "type": "integer",
+          "visibility": "private"
+        },
+        {
+          "name": "namaProduk",
+          "type": "teks",
+          "visibility": "private"
+        },
+        {
+          "name": "harga",
+          "type": "desimal",
+          "visibility": "private"
+        },
+        {
+          "name": "deskripsi",
+          "type": "teks",
+          "visibility": "private"
+        }
+      ],
+      "methods": [
+        {
+          "name": "perbarui",
+          "parameters": [
+            "field: teks",
+            "value: teks"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        },
+        {
+          "name": "terapkanDiskon",
+          "parameters": [
+            "percentage: desimal"
+          ],
+          "return_type": "desimal",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "class_4",
+      "name": "Pembayaran",
+      "attributes": [
+        {
+          "name": "idPembayaran",
+          "type": "integer",
+          "visibility": "private"
+        },
+        {
+          "name": "metodePembayaran",
+          "type": "teks",
+          "visibility": "private"
+        },
+        {
+          "name": "tanggalPembayaran",
+          "type": "tanggal",
+          "visibility": "private"
+        },
+        {
+          "name": "totalJumlah",
+          "type": "desimal",
+          "visibility": "private"
+        }
+      ],
+      "methods": [
+        {
+          "name": "prosesPembayaran",
+          "parameters": [
+            "idPesanan: integer"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        },
+        {
+          "name": "validasiPembayaran",
+          "parameters": [],
+          "return_type": "boolean",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "class_5",
+      "name": "KeranjangBelanja",
+      "attributes": [
+        {
+          "name": "idKeranjang",
+          "type": "integer",
+          "visibility": "private"
+        },
+        {
+          "name": "idPelanggan",
+          "type": "integer",
+          "visibility": "private"
+        },
+        {
+          "name": "totalJumlah",
+          "type": "desimal",
+          "visibility": "private"
+        }
+      ],
+      "methods": [
+        {
+          "name": "tambahProduk",
+          "parameters": [
+            "idProduk: integer",
+            "jumlah: integer"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        },
+        {
+          "name": "hapusProduk",
+          "parameters": [
+            "idProduk: integer"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        },
+        {
+          "name": "hitungTotal",
+          "parameters": [],
+          "return_type": "desimal",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "class_6",
+      "name": "Faktur",
+      "attributes": [
+        {
+          "name": "idFaktur",
+          "type": "integer",
+          "visibility": "private"
+        },
+        {
+          "name": "nomorFaktur",
+          "type": "teks",
+          "visibility": "private"
+        },
+        {
+          "name": "idPesanan",
+          "type": "integer",
+          "visibility": "private"
+        },
+        {
+          "name": "totalJumlah",
+          "type": "desimal",
+          "visibility": "private"
+        }
+      ],
+      "methods": [
+        {
+          "name": "buatFaktur",
+          "parameters": [
+            "idPesanan: integer"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "class_7",
+      "name": "Pengiriman",
+      "attributes": [
+        {
+          "name": "idPengiriman",
+          "type": "integer",
+          "visibility": "private"
+        },
+        {
+          "name": "idPesanan",
+          "type": "integer",
+          "visibility": "private"
+        },
+        {
+          "name": "nomorPelacakan",
+          "type": "teks",
+          "visibility": "private"
+        },
+        {
+          "name": "status",
+          "type": "teks",
+          "visibility": "private"
+        }
+      ],
+      "methods": [
+        {
+          "name": "kirimPesanan",
+          "parameters": [
+            "idPesanan: integer"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        },
+        {
+          "name": "lacakPengiriman",
+          "parameters": [],
+          "return_type": "teks",
+          "visibility": "public"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel_5",
+      "type": "aggregation",
+      "source": "class_5",
+      "target": "class_3",
+      "multiplicity_source": "1",
+      "multiplicity_target": "*",
+      "label": "contains"
+    },
+    {
+      "id": "rel_8",
+      "type": "association",
+      "source": "class_4",
+      "target": "class_6",
+      "multiplicity_source": "1",
+      "multiplicity_target": "1",
+      "label": "documented in"
+    }
+  ],
+  "variation_type": "missing_classes",
+  "expected_score_range": [
+    60,
+    80
+  ],
+  "modifications": [
+    "Removed class: Pesanan",
+    "Removed class: Pelanggan"
+  ]
+}

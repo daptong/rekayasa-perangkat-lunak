@@ -1,0 +1,213 @@
+{
+  "overall_metrics": {
+    "pearson_r": 0.9082719509966457,
+    "pearson_p_value": 8.598747851043179e-20,
+    "spearman_r": 0.8781313295368595,
+    "spearman_p_value": 5.543554045733636e-17,
+    "mae": 2.4964034376105286,
+    "rmse": 3.352006837774729,
+    "mean_bias": 1.1879391400968047,
+    "agreement_within_5": 88.0,
+    "agreement_within_10": 98.0,
+    "num_samples": 50,
+    "target_correlation": 0.76,
+    "meets_target": "True"
+  },
+  "variation_metrics": [
+    {
+      "variation_type": "combination_errors",
+      "num_samples": 5,
+      "pearson_r": NaN,
+      "p_value": NaN,
+      "mae": 4.228338453750444,
+      "rmse": 6.012380317450149,
+      "mean_bias": 4.228338453750444,
+      "mean_system_score": 74.22833845375044,
+      "mean_human_score": 70.0
+    },
+    {
+      "variation_type": "extra_classes",
+      "num_samples": 5,
+      "pearson_r": NaN,
+      "p_value": NaN,
+      "mae": 1.196947945276861,
+      "rmse": 1.3505466211853143,
+      "mean_bias": 0.48598985001299866,
+      "mean_system_score": 83.07133497624386,
+      "mean_human_score": 82.58534512623086
+    },
+    {
+      "variation_type": "minor_semantic",
+      "num_samples": 10,
+      "pearson_r": -0.16119768668346407,
+      "p_value": 0.6564008111860518,
+      "mae": 2.8500971493110954,
+      "rmse": 3.3722820098746578,
+      "mean_bias": 0.5848555296069649,
+      "mean_system_score": 90.25839243881357,
+      "mean_human_score": 89.67353690920662
+    },
+    {
+      "variation_type": "missing_attributes",
+      "num_samples": 5,
+      "pearson_r": 0.7411722828359263,
+      "p_value": 0.15178379538129946,
+      "mae": 3.043874125397889,
+      "rmse": 3.211495580497827,
+      "mean_bias": -2.1133317807021283,
+      "mean_system_score": 74.70408679303657,
+      "mean_human_score": 76.8174185737387
+    },
+    {
+      "variation_type": "missing_classes",
+      "num_samples": 5,
+      "pearson_r": 0.97427695839554,
+      "p_value": 0.0049332657065006185,
+      "mae": 1.2447151760344581,
+      "rmse": 1.7965912041816439,
+      "mean_bias": 1.054008364510662,
+      "mean_system_score": 79.78925267050963,
+      "mean_human_score": 78.73524430599896
+    },
+    {
+      "variation_type": "missing_methods",
+      "num_samples": 5,
+      "pearson_r": 0.9437169043653456,
+      "p_value": 0.015892782947525746,
+      "mae": 2.3763226311229944,
+      "rmse": 2.5460766371498655,
+      "mean_bias": 0.1487810324055232,
+      "mean_system_score": 77.8258740844557,
+      "mean_human_score": 77.67709305205018
+    },
+    {
+      "variation_type": "perfect_translation",
+      "num_samples": 5,
+      "pearson_r": NaN,
+      "p_value": NaN,
+      "mae": 1.241919192862028,
+      "rmse": 1.5325335311047512,
+      "mean_bias": 1.2360899815723285,
+      "mean_system_score": 89.85730426994462,
+      "mean_human_score": 88.6212142883723
+    },
+    {
+      "variation_type": "spelling_errors",
+      "num_samples": 5,
+      "pearson_r": 0.8257797037970624,
+      "p_value": 0.0849755250088787,
+      "mae": 1.020917071994083,
+      "rmse": 1.168087247102051,
+      "mean_bias": 0.7589989591599504,
+      "mean_system_score": 90.66111518764819,
+      "mean_human_score": 89.90211622848824
+    },
+    {
+      "variation_type": "wrong_relationships",
+      "num_samples": 5,
+      "pearson_r": NaN,
+      "p_value": NaN,
+      "mae": 4.910805481044338,
+      "rmse": 5.2825369224868375,
+      "mean_bias": 4.910805481044338,
+      "mean_system_score": 84.91080548104432,
+      "mean_human_score": 80.0
+    }
+  ],
+  "confusion_matrix": {
+    "Poor": {
+      "Poor": 0,
+      "Fair": 0,
+      "Good": 0,
+      "Excellent": 0
+    },
+    "Fair": {
+      "Poor": 0,
+      "Fair": 0,
+      "Good": 1,
+      "Excellent": 0
+    },
+    "Good": {
+      "Poor": 0,
+      "Fair": 1,
+      "Good": 39,
+      "Excellent": 6
+    },
+    "Excellent": {
+      "Poor": 0,
+      "Fair": 0,
+      "Good": 2,
+      "Excellent": 1
+    }
+  },
+  "high_error_cases": [
+    {
+      "diagram_id": "student_047",
+      "similarity_score": 80.62270285329166,
+      "ged_value": 5.287599176665147,
+      "max_possible_ged": 22.0,
+      "normalized_ged": 0.24034541712114302,
+      "semantic_score": 57.11673107885179,
+      "structural_score": 85.71428571428572,
+      "relationship_score": 50.0,
+      "details": {
+        "nodes_key": 7,
+        "nodes_student": 6,
+        "nodes_matched": 6,
+        "nodes_missing": 1,
+        "nodes_extra": 0,
+        "edges_key": 8,
+        "edges_student": 6,
+        "edges_wrong_type": 2,
+        "edges_missing": 2,
+        "edges_extra": 0,
+        "total_name_cost": 9.005486473441124,
+        "total_attr_cost": 9.035340962807338,
+        "total_method_cost": 6.537719339132308
+      },
+      "num_edit_operations": 23,
+      "edit_operations_summary": {
+        "node_substitutions": 21,
+        "edge_wrong_types": 2,
+        "total_operations": 23
+      },
+      "variation_type": "combination_errors",
+      "expected_score_range": [
+        40,
+        60
+      ],
+      "modifications": [
+        "Removed class: Faktur",
+        "Removed attribute idPengiriman from Pengiriman",
+        "Removed attribute idKeranjang from KeranjangBelanja",
+        "Changed relationship rel_2 to composition",
+        "Changed relationship rel_5 to composition"
+      ],
+      "human_score": 70.0,
+      "nodes_key": 7,
+      "nodes_student": 6,
+      "nodes_matched": 6,
+      "nodes_missing": 1,
+      "nodes_extra": 0,
+      "edges_key": 8,
+      "edges_student": 6,
+      "edges_wrong_type": 2,
+      "system_category": "Good",
+      "human_category": "Good",
+      "error": 10.622702853291656,
+      "abs_error": 10.622702853291656
+    }
+  ],
+  "agreement_rates": {
+    "within_3": 70.0,
+    "within_5": 88.0,
+    "within_7": 92.0,
+    "within_10": 98.0,
+    "within_15": 100.0
+  },
+  "statistical_significance": {
+    "is_significant": "<CircularRef:bool_>",
+    "significance_level": 0.05,
+    "p_value": 8.598747851043179e-20
+  }
+}

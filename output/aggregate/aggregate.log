@@ -1,0 +1,64 @@
+2025-11-29 09:29:25,072 - INFO - ============================================================
+2025-11-29 09:29:25,072 - INFO - EVALUATION RESULTS
+2025-11-29 09:29:25,072 - INFO - ============================================================
+2025-11-29 09:29:25,072 - INFO - Pearson Correlation Coefficient (r): 0.8942
+2025-11-29 09:29:25,072 - INFO - P-value: 0.000000
+2025-11-29 09:29:25,072 - INFO - Spearman Correlation Coefficient: 0.8816
+2025-11-29 09:29:25,072 - INFO - Mean Absolute Error: 2.99
+2025-11-29 09:29:25,072 - INFO - Root Mean Square Error: 3.85
+2025-11-29 09:29:25,072 - INFO - Mean Bias: +1.47
+2025-11-29 09:29:25,072 - INFO - Agreement within ±5 points: 87.6%
+2025-11-29 09:29:25,072 - INFO - Agreement within ±10 points: 96.0%
+2025-11-29 09:29:25,072 - INFO - Target correlation: 0.76
+2025-11-29 09:29:25,072 - INFO - Meets target: YES
+2025-11-29 09:29:25,072 - INFO - ============================================================
+2025-11-29 09:29:25,109 - INFO - 
+Performance by Variation Type:
+2025-11-29 09:29:25,114 - INFO -      variation_type  num_samples  pearson_r      p_value      mae     rmse  mean_bias  mean_system_score  mean_human_score
+ combination_errors           25   0.411803 4.081826e-02 6.738078 7.873966   6.738078          76.507255         69.769177
+      extra_classes           25   0.428909 3.240407e-02 2.140029 2.665572   1.260800          84.505664         83.244864
+     minor_semantic           50   0.792108 7.312752e-12 2.762223 3.262085   0.198293          88.631669         88.433376
+ missing_attributes           25   0.948016 6.315580e-13 2.178328 2.534720   0.039783          78.411765         78.371982
+    missing_classes           25   0.927321 2.688414e-11 2.026248 2.546361   0.304152          80.184502         79.880349
+    missing_methods           25   0.916334 1.284660e-10 2.681084 3.217601   0.126859          76.921756         76.794898
+perfect_translation           25        NaN          NaN 2.297158 2.906731   1.363172          89.857304         88.494132
+    spelling_errors           25   0.422610 3.532404e-02 2.192434 2.720013   0.413988          90.942426         90.528439
+wrong_relationships           25   0.342556 9.369028e-02 4.079794 4.362154   4.079794          83.862342         79.782548
+2025-11-29 09:29:25,123 - INFO - 
+Confusion Matrix (Score Categories):
+2025-11-29 09:29:25,123 - INFO - System     Poor  Fair  Good  Excellent
+Human                                 
+Poor          0     0     0          0
+Fair          0     3     9          0
+Good          0     2   188          6
+Excellent     0     0    32         10
+2025-11-29 09:29:25,140 - WARNING - 
+10 cases with error > 10.0:
+2025-11-29 09:29:25,144 - WARNING -  diagram_id     variation_type  similarity_score  human_score     error
+student_049 combination_errors         81.289229         70.0 11.289229
+student_049 combination_errors         81.205214         70.0 11.205214
+student_047 combination_errors         81.122996         70.0 11.122996
+student_048 combination_errors         81.054836         70.0 11.054836
+student_046 combination_errors         81.047014         70.0 11.047014
+student_050 combination_errors         81.042431         70.0 11.042431
+student_047 combination_errors         81.042431         70.0 11.042431
+student_046 combination_errors         80.708775         70.0 10.708775
+student_049 combination_errors         80.640922         70.0 10.640922
+student_047 combination_errors         80.622703         70.0 10.622703
+2025-11-29 09:29:25,145 - INFO - 
+Agreement Rates:
+2025-11-29 09:29:25,146 - INFO -   Within ±3 points: 60.4%
+2025-11-29 09:29:25,146 - INFO -   Within ±5 points: 87.6%
+2025-11-29 09:29:25,146 - INFO -   Within ±7 points: 92.4%
+2025-11-29 09:29:25,146 - INFO -   Within ±10 points: 96.0%
+2025-11-29 09:29:25,147 - INFO -   Within ±15 points: 100.0%
+2025-11-29 09:29:25,164 - INFO - Saved text summary to output\aggregate\combined_summary.txt
+2025-11-29 09:29:26,038 - INFO - Exported report to output\aggregate\combined_assessment_report.xlsx
+2025-11-29 09:29:26,038 - INFO - Creating all visualizations...
+2025-11-29 09:29:26,759 - INFO - Saved scatter plot to output\aggregate\visualizations\scatter_plot.png
+2025-11-29 09:29:27,647 - INFO - Saved box plots to output\aggregate\visualizations\scores_by_type.png
+2025-11-29 09:29:28,187 - INFO - Saved error distribution to output\aggregate\visualizations\error_distribution.png
+2025-11-29 09:29:28,620 - INFO - Saved confusion matrix to output\aggregate\visualizations\confusion_matrix.png
+2025-11-29 09:29:30,290 - INFO - Saved component scores to output\aggregate\visualizations\component_scores.png
+2025-11-29 09:29:30,689 - INFO - Saved correlation by type to output\aggregate\visualizations\correlation_by_type.png
+2025-11-29 09:29:30,707 - INFO - All visualizations saved to output\aggregate\visualizations/

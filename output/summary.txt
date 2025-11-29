@@ -1,0 +1,28 @@
+======================================================================
+UML DIAGRAM ASSESSMENT - EVALUATION SUMMARY
+======================================================================
+
+OVERALL PERFORMANCE
+----------------------------------------------------------------------
+Pearson Correlation Coefficient: 0.9265
+P-value: 0.000000
+Spearman Correlation: 0.8953
+Mean Absolute Error: 2.98 points
+Root Mean Square Error: 3.70 points
+Mean Bias: +1.50 points
+Agreement within ±5: 84.0%
+Agreement within ±10: 100.0%
+Number of samples: 50
+
+TARGET ACHIEVEMENT
+----------------------------------------------------------------------
+Target correlation: 0.76
+Achieved: 0.9265
+Status: ✓ PASSED
+
+STATISTICAL SIGNIFICANCE
+----------------------------------------------------------------------
+Is significant (α=0.05): Yes
+P-value: 0.000000
+
+======================================================================

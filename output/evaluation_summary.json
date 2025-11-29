@@ -1,0 +1,156 @@
+{
+  "overall_metrics": {
+    "pearson_r": 0.9265414187025746,
+    "pearson_p_value": 5.1342063607914325e-22,
+    "spearman_r": 0.8952764745528965,
+    "spearman_p_value": 1.7790095167768573e-18,
+    "mae": 2.97964784298455,
+    "rmse": 3.6954991783299223,
+    "mean_bias": 1.4981438543276024,
+    "agreement_within_5": 84.0,
+    "agreement_within_10": 100.0,
+    "num_samples": 50,
+    "target_correlation": 0.76,
+    "meets_target": "True"
+  },
+  "variation_metrics": [
+    {
+      "variation_type": "combination_errors",
+      "num_samples": 5,
+      "pearson_r": NaN,
+      "p_value": NaN,
+      "mae": 4.671515502261817,
+      "rmse": 5.965611469316855,
+      "mean_bias": 4.671515502261817,
+      "mean_system_score": 74.67151550226183,
+      "mean_human_score": 70.0
+    },
+    {
+      "variation_type": "extra_classes",
+      "num_samples": 5,
+      "pearson_r": -0.3343476605861597,
+      "p_value": 0.5823654229201417,
+      "mae": 2.9019559795660483,
+      "rmse": 3.3273494979000313,
+      "mean_bias": -0.17943338957006177,
+      "mean_system_score": 84.37527058990005,
+      "mean_human_score": 84.55470397947012
+    },
+    {
+      "variation_type": "minor_semantic",
+      "num_samples": 10,
+      "pearson_r": 0.5819847452599571,
+      "p_value": 0.07754848157066084,
+      "mae": 2.880222334028997,
+      "rmse": 3.5239078495962337,
+      "mean_bias": 0.7616850241113241,
+      "mean_system_score": 90.19383642478846,
+      "mean_human_score": 89.43215140067711
+    },
+    {
+      "variation_type": "missing_attributes",
+      "num_samples": 5,
+      "pearson_r": 0.9978689448328545,
+      "p_value": 0.00011805571661543174,
+      "mae": 1.4630425233222895,
+      "rmse": 1.9479879095386454,
+      "mean_bias": 1.338409342626889,
+      "mean_system_score": 82.96881821340641,
+      "mean_human_score": 81.63040887077952
+    },
+    {
+      "variation_type": "missing_classes",
+      "num_samples": 5,
+      "pearson_r": 0.9786818443844326,
+      "p_value": 0.0037244715215371607,
+      "mae": 3.5195188456204507,
+      "rmse": 3.6474307490433096,
+      "mean_bias": 1.3296987834211507,
+      "mean_system_score": 78.75921874330251,
+      "mean_human_score": 77.42951995988136
+    },
+    {
+      "variation_type": "missing_methods",
+      "num_samples": 5,
+      "pearson_r": 0.6083153902999968,
+      "p_value": 0.2763202472200496,
+      "mae": 1.8836540199459706,
+      "rmse": 2.2711335156899177,
+      "mean_bias": 0.9319636733027835,
+      "mean_system_score": 71.641384415689,
+      "mean_human_score": 70.70942074238621
+    },
+    {
+      "variation_type": "perfect_translation",
+      "num_samples": 5,
+      "pearson_r": NaN,
+      "p_value": NaN,
+      "mae": 2.4462799832317415,
+      "rmse": 2.880529688807468,
+      "mean_bias": 1.7547067543537622,
+      "mean_system_score": 89.85730426994462,
+      "mean_human_score": 88.10259751559086
+    },
+    {
+      "variation_type": "spelling_errors",
+      "num_samples": 5,
+      "pearson_r": -0.12451945068459236,
+      "p_value": 0.8418675737300582,
+      "mae": 3.147753963841069,
+      "rmse": 3.819849441556002,
+      "mean_bias": -0.3911051153410881,
+      "mean_system_score": 92.19788834578354,
+      "mean_human_score": 92.58899346112463
+    },
+    {
+      "variation_type": "wrong_relationships",
+      "num_samples": 5,
+      "pearson_r": -0.12184524392903401,
+      "p_value": 0.8452465469030063,
+      "mae": 4.002312943998123,
+      "rmse": 4.463894865063094,
+      "mean_bias": 4.002312943998123,
+      "mean_system_score": 83.87504923520626,
+      "mean_human_score": 79.87273629120816
+    }
+  ],
+  "confusion_matrix": {
+    "Poor": {
+      "Poor": 0,
+      "Fair": 0,
+      "Good": 0,
+      "Excellent": 0
+    },
+    "Fair": {
+      "Poor": 0,
+      "Fair": 1,
+      "Good": 0,
+      "Excellent": 0
+    },
+    "Good": {
+      "Poor": 0,
+      "Fair": 4,
+      "Good": 34,
+      "Excellent": 6
+    },
+    "Excellent": {
+      "Poor": 0,
+      "Fair": 0,
+      "Good": 0,
+      "Excellent": 5
+    }
+  },
+  "high_error_cases": [],
+  "agreement_rates": {
+    "within_3": 60.0,
+    "within_5": 84.0,
+    "within_7": 92.0,
+    "within_10": 100.0,
+    "within_15": 100.0
+  },
+  "statistical_significance": {
+    "is_significant": "<CircularRef:bool_>",
+    "significance_level": 0.05,
+    "p_value": 5.1342063607914325e-22
+  }
+}

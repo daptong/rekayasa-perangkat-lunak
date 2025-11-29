@@ -1,0 +1,398 @@
+{
+  "diagram_id": "key_reference_english",
+  "language": "english",
+  "classes": [
+    {
+      "id": "class_1",
+      "name": "Customer",
+      "attributes": [
+        {
+          "name": "customerId",
+          "type": "int",
+          "visibility": "private"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "visibility": "private"
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "visibility": "private"
+        },
+        {
+          "name": "phone",
+          "type": "string",
+          "visibility": "private"
+        },
+        {
+          "name": "address",
+          "type": "string",
+          "visibility": "private"
+        }
+      ],
+      "methods": [
+        {
+          "name": "register",
+          "parameters": [
+            "email: string",
+            "phone: string"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        },
+        {
+          "name": "login",
+          "parameters": [
+            "email: string"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        },
+        {
+          "name": "update",
+          "parameters": [
+            "field: string",
+            "value: string"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "class_2",
+      "name": "Order",
+      "attributes": [
+        {
+          "name": "orderId",
+          "type": "int",
+          "visibility": "private"
+        },
+        {
+          "name": "orderDate",
+          "type": "date",
+          "visibility": "private"
+        },
+        {
+          "name": "totalAmount",
+          "type": "float",
+          "visibility": "private"
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "visibility": "private"
+        }
+      ],
+      "methods": [
+        {
+          "name": "placeOrder",
+          "parameters": [
+            "customerId: int"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        },
+        {
+          "name": "cancelOrder",
+          "parameters": [],
+          "return_type": "boolean",
+          "visibility": "public"
+        },
+        {
+          "name": "calculateTotal",
+          "parameters": [],
+          "return_type": "float",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "class_3",
+      "name": "Product",
+      "attributes": [
+        {
+          "name": "productId",
+          "type": "int",
+          "visibility": "private"
+        },
+        {
+          "name": "productName",
+          "type": "string",
+          "visibility": "private"
+        },
+        {
+          "name": "price",
+          "type": "float",
+          "visibility": "private"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "visibility": "private"
+        }
+      ],
+      "methods": [
+        {
+          "name": "update",
+          "parameters": [
+            "field: string",
+            "value: string"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        },
+        {
+          "name": "applyDiscount",
+          "parameters": [
+            "percentage: float"
+          ],
+          "return_type": "float",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "class_4",
+      "name": "Payment",
+      "attributes": [
+        {
+          "name": "paymentId",
+          "type": "int",
+          "visibility": "private"
+        },
+        {
+          "name": "paymentMethod",
+          "type": "string",
+          "visibility": "private"
+        },
+        {
+          "name": "paymentDate",
+          "type": "date",
+          "visibility": "private"
+        },
+        {
+          "name": "totalAmount",
+          "type": "float",
+          "visibility": "private"
+        }
+      ],
+      "methods": [
+        {
+          "name": "processPayment",
+          "parameters": [
+            "orderId: int"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        },
+        {
+          "name": "validatePayment",
+          "parameters": [],
+          "return_type": "boolean",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "class_5",
+      "name": "ShoppingCart",
+      "attributes": [
+        {
+          "name": "cartId",
+          "type": "int",
+          "visibility": "private"
+        },
+        {
+          "name": "customerId",
+          "type": "int",
+          "visibility": "private"
+        },
+        {
+          "name": "totalAmount",
+          "type": "float",
+          "visibility": "private"
+        }
+      ],
+      "methods": [
+        {
+          "name": "addProduct",
+          "parameters": [
+            "productId: int",
+            "quantity: int"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        },
+        {
+          "name": "removeProduct",
+          "parameters": [
+            "productId: int"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        },
+        {
+          "name": "calculateTotal",
+          "parameters": [],
+          "return_type": "float",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "class_6",
+      "name": "Invoice",
+      "attributes": [
+        {
+          "name": "invoiceId",
+          "type": "int",
+          "visibility": "private"
+        },
+        {
+          "name": "invoiceNumber",
+          "type": "string",
+          "visibility": "private"
+        },
+        {
+          "name": "orderId",
+          "type": "int",
+          "visibility": "private"
+        },
+        {
+          "name": "totalAmount",
+          "type": "float",
+          "visibility": "private"
+        }
+      ],
+      "methods": [
+        {
+          "name": "generateInvoice",
+          "parameters": [
+            "orderId: int"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "class_7",
+      "name": "Shipping",
+      "attributes": [
+        {
+          "name": "shippingId",
+          "type": "int",
+          "visibility": "private"
+        },
+        {
+          "name": "orderId",
+          "type": "int",
+          "visibility": "private"
+        },
+        {
+          "name": "trackingNumber",
+          "type": "string",
+          "visibility": "private"
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "visibility": "private"
+        }
+      ],
+      "methods": [
+        {
+          "name": "shipOrder",
+          "parameters": [
+            "orderId: int"
+          ],
+          "return_type": "boolean",
+          "visibility": "public"
+        },
+        {
+          "name": "trackShipment",
+          "parameters": [],
+          "return_type": "string",
+          "visibility": "public"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel_1",
+      "type": "association",
+      "source": "class_1",
+      "target": "class_2",
+      "multiplicity_source": "1",
+      "multiplicity_target": "*",
+      "label": "places"
+    },
+    {
+      "id": "rel_2",
+      "type": "association",
+      "source": "class_2",
+      "target": "class_3",
+      "multiplicity_source": "1",
+      "multiplicity_target": "*",
+      "label": "contains"
+    },
+    {
+      "id": "rel_3",
+      "type": "association",
+      "source": "class_2",
+      "target": "class_4",
+      "multiplicity_source": "1",
+      "multiplicity_target": "1",
+      "label": "paid by"
+    },
+    {
+      "id": "rel_4",
+      "type": "composition",
+      "source": "class_1",
+      "target": "class_5",
+      "multiplicity_source": "1",
+      "multiplicity_target": "1",
+      "label": "has"
+    },
+    {
+      "id": "rel_5",
+      "type": "aggregation",
+      "source": "class_5",
+      "target": "class_3",
+      "multiplicity_source": "1",
+      "multiplicity_target": "*",
+      "label": "contains"
+    },
+    {
+      "id": "rel_6",
+      "type": "association",
+      "source": "class_2",
+      "target": "class_6",
+      "multiplicity_source": "1",
+      "multiplicity_target": "1",
+      "label": "generates"
+    },
+    {
+      "id": "rel_7",
+      "type": "association",
+      "source": "class_2",
+      "target": "class_7",
+      "multiplicity_source": "1",
+      "multiplicity_target": "1",
+      "label": "shipped via"
+    },
+    {
+      "id": "rel_8",
+      "type": "association",
+      "source": "class_4",
+      "target": "class_6",
+      "multiplicity_source": "1",
+      "multiplicity_target": "1",
+      "label": "documented in"
+    }
+  ]
+}

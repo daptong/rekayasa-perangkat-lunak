@@ -1,0 +1,45 @@
+assessment:
+  weights:
+    class_name: 0.5
+    attributes: 0.25
+    methods: 0.25
+  penalties:
+    node_deletion: 1.0
+    node_insertion: 1.0
+    edge_deletion: 0.5
+    edge_insertion: 0.5
+    wrong_relationship: 0.8
+  semantic_threshold: 0.85  # Consider match if similarity > 0.85
+
+mbert:
+  model_name: 'bert-base-multilingual-cased'
+  max_length: 512
+  batch_size: 16
+
+evaluation:
+  correlation_threshold: 0.76  # Target from research
+  
+diagram_generation:
+  num_student_diagrams: 50
+  num_classes_key: 7
+  min_attributes_per_class: 3
+  max_attributes_per_class: 5
+  min_methods_per_class: 2
+  max_methods_per_class: 4
+  num_relationships: 8
+
+variation_distribution:
+  perfect_translation: 5
+  minor_semantic: 10
+  spelling_errors: 5
+  missing_classes: 5
+  extra_classes: 5
+  missing_attributes: 5
+  missing_methods: 5
+  wrong_relationships: 5
+  combination_errors: 5
+
+output:
+  data_dir: 'data'
+  output_dir: 'output'
+  visualizations_dir: 'output/visualizations'

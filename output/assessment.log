@@ -1,0 +1,930 @@
+2025-11-29 09:18:12,145 - INFO - Starting UML Diagram Assessment System
+2025-11-29 09:18:12,166 - INFO - Configuration loaded
+2025-11-29 09:18:12,166 - INFO - ======================================================================
+2025-11-29 09:18:12,166 - INFO - STEP 1: Generating UML Diagrams
+2025-11-29 09:18:12,166 - INFO - ======================================================================
+2025-11-29 09:18:12,170 - INFO - Generating key reference diagram (English)...
+2025-11-29 09:18:12,170 - INFO - Generating 50 student diagram variations (Indonesian)...
+2025-11-29 09:18:12,263 - INFO - Generated 50 student diagrams
+2025-11-29 09:18:12,264 - INFO - ======================================================================
+2025-11-29 09:18:12,265 - INFO - STEP 2: Initializing mBERT
+2025-11-29 09:18:12,265 - INFO - ======================================================================
+2025-11-29 09:18:12,265 - INFO - Loading mBERT model: bert-base-multilingual-cased on cpu
+2025-11-29 09:18:16,279 - INFO - mBERT model loaded successfully
+2025-11-29 09:18:16,279 - INFO - ======================================================================
+2025-11-29 09:18:16,279 - INFO - STEP 3: Building Graph Representations
+2025-11-29 09:18:16,279 - INFO - ======================================================================
+2025-11-29 09:18:16,279 - INFO - Building key reference graph...
+2025-11-29 09:18:17,642 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:17,647 - INFO - ======================================================================
+2025-11-29 09:18:17,647 - INFO - STEP 4: Assessing All Diagrams
+2025-11-29 09:18:17,647 - INFO - ======================================================================
+2025-11-29 09:18:18,691 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:21,371 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:21,398 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:21,419 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:21,435 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:21,777 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:21,793 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:21,994 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:22,018 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:22,024 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:22,203 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:22,229 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:22,257 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:22,284 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:22,465 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:22,792 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:22,989 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:23,203 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:23,403 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:23,440 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:23,454 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:18:23,475 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:18:23,491 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:18:23,509 - INFO - Built graph with 5 nodes and 5 edges
+2025-11-29 09:18:23,509 - INFO - Built graph with 5 nodes and 3 edges
+2025-11-29 09:18:23,641 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:18:23,868 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:18:23,896 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:18:23,924 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:18:23,946 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:18:24,405 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:24,568 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:24,881 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:25,136 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:25,446 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:25,796 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:26,104 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:26,369 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:26,394 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:26,655 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:26,674 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:26,696 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:26,717 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:26,734 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:26,761 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:18:26,906 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:18:27,006 - INFO - Built graph with 6 nodes and 7 edges
+2025-11-29 09:18:27,155 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:18:27,288 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:18:27,304 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:18:27,317 - INFO - Assessment complete for 50 diagrams
+2025-11-29 09:18:27,319 - INFO - ======================================================================
+2025-11-29 09:18:27,319 - INFO - STEP 5: Evaluation and Validation
+2025-11-29 09:18:27,319 - INFO - ======================================================================
+2025-11-29 09:18:27,327 - INFO - ============================================================
+2025-11-29 09:18:27,327 - INFO - EVALUATION RESULTS
+2025-11-29 09:18:27,327 - INFO - ============================================================
+2025-11-29 09:18:27,327 - INFO - Pearson Correlation Coefficient (r): 0.9102
+2025-11-29 09:18:27,338 - INFO - P-value: 0.000000
+2025-11-29 09:18:27,338 - INFO - Spearman Correlation Coefficient: 0.8754
+2025-11-29 09:18:27,338 - INFO - Mean Absolute Error: 3.03
+2025-11-29 09:18:27,339 - INFO - Root Mean Square Error: 4.03
+2025-11-29 09:18:27,339 - INFO - Mean Bias: +1.73
+2025-11-29 09:18:27,340 - INFO - Agreement within ±5 points: 82.0%
+2025-11-29 09:18:27,340 - INFO - Agreement within ±10 points: 94.0%
+2025-11-29 09:18:27,340 - INFO - Target correlation: 0.76
+2025-11-29 09:18:27,340 - INFO - Meets target: YES
+2025-11-29 09:18:27,340 - INFO - ============================================================
+2025-11-29 09:18:27,379 - INFO - 
+Performance by Variation Type:
+2025-11-29 09:18:27,388 - INFO -      variation_type  num_samples  pearson_r  p_value      mae     rmse  mean_bias  mean_system_score  mean_human_score
+ combination_errors            5   0.666346 0.219407 7.490954 8.881711   7.490954          77.363075         69.872121
+      extra_classes            5   0.981235 0.003077 3.289808 3.428829   0.885761          84.375271         83.489509
+     minor_semantic           10   0.312914 0.378677 2.178806 3.002796   1.583765          90.278303         88.694538
+ missing_attributes            5   0.963173 0.008437 1.775855 2.250034   0.138190          76.160228         76.022039
+    missing_classes            5   0.867429 0.056778 2.394595 3.112612   0.916815          80.080087         79.163272
+    missing_methods            5   0.724190 0.166499 2.216083 2.663402   1.367647          70.413577         69.045930
+perfect_translation            5        NaN      NaN 2.512522 3.012554  -0.831326          89.857304         90.688630
+    spelling_errors            5   0.320523 0.598997 2.181218 2.328475   0.150790          91.371465         91.220675
+wrong_relationships            5   0.492972 0.398769 4.050330 4.211425   4.050330          83.341287         79.290957
+2025-11-29 09:18:27,407 - INFO - 
+Confusion Matrix (Score Categories):
+2025-11-29 09:18:27,407 - INFO - System     Poor  Fair  Good  Excellent
+Human                                 
+Poor          0     0     0          0
+Fair          0     2     3          0
+Good          0     0    35          0
+Excellent     0     0     6          4
+2025-11-29 09:18:27,492 - WARNING - 
+3 cases with error > 10.0:
+2025-11-29 09:18:27,498 - WARNING -  diagram_id     variation_type  similarity_score  human_score     error
+student_047 combination_errors         82.735547         70.0 12.735547
+student_049 combination_errors         80.640922         70.0 10.640922
+student_050 combination_errors         80.622703         70.0 10.622703
+2025-11-29 09:18:27,498 - INFO - 
+Agreement Rates:
+2025-11-29 09:18:27,498 - INFO -   Within ±3 points: 62.0%
+2025-11-29 09:18:27,498 - INFO -   Within ±5 points: 82.0%
+2025-11-29 09:18:27,498 - INFO -   Within ±7 points: 94.0%
+2025-11-29 09:18:27,498 - INFO -   Within ±10 points: 94.0%
+2025-11-29 09:18:27,498 - INFO -   Within ±15 points: 100.0%
+2025-11-29 09:18:27,520 - INFO - ======================================================================
+2025-11-29 09:18:27,522 - INFO - STEP 6: Visualization and Reporting
+2025-11-29 09:18:27,523 - INFO - ======================================================================
+2025-11-29 09:18:27,523 - INFO - Creating all visualizations...
+2025-11-29 09:18:29,099 - INFO - Saved scatter plot to output/visualizations\scatter_plot.png
+2025-11-29 09:18:30,097 - INFO - Saved box plots to output/visualizations\scores_by_type.png
+2025-11-29 09:18:30,584 - INFO - Saved error distribution to output/visualizations\error_distribution.png
+2025-11-29 09:18:31,016 - INFO - Saved confusion matrix to output/visualizations\confusion_matrix.png
+2025-11-29 09:18:31,717 - INFO - Saved component scores to output/visualizations\component_scores.png
+2025-11-29 09:18:32,165 - INFO - Saved correlation by type to output/visualizations\correlation_by_type.png
+2025-11-29 09:18:32,165 - INFO - All visualizations saved to output/visualizations/
+2025-11-29 09:18:32,553 - INFO - Exported report to output\assessment_report.xlsx
+2025-11-29 09:18:32,553 - INFO - Exported results to output\results.csv
+2025-11-29 09:18:32,553 - INFO - Saved text summary to output\summary.txt
+2025-11-29 09:18:32,569 - ERROR - Fatal error: Circular reference detected
+Traceback (most recent call last):
+  File "d:\d\s2\s1\rpl\p1\main.py", line 274, in <module>
+    main()
+  File "d:\d\s2\s1\rpl\p1\main.py", line 248, in main
+    json.dump(evaluation_summary, f, indent=2, ensure_ascii=False, default=convert_types)
+  File "C:\Users\d\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Users\d\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\d\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\d\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\d\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 439, in _iterencode
+    yield from _iterencode(o, _current_indent_level)
+  File "C:\Users\d\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 436, in _iterencode
+    raise ValueError("Circular reference detected")
+ValueError: Circular reference detected
+2025-11-29 09:20:04,455 - INFO - Starting UML Diagram Assessment System
+2025-11-29 09:20:04,455 - INFO - Configuration loaded
+2025-11-29 09:20:04,455 - INFO - ======================================================================
+2025-11-29 09:20:04,455 - INFO - STEP 1: Generating UML Diagrams
+2025-11-29 09:20:04,455 - INFO - ======================================================================
+2025-11-29 09:20:04,455 - INFO - Generating key reference diagram (English)...
+2025-11-29 09:20:04,465 - INFO - Generating 50 student diagram variations (Indonesian)...
+2025-11-29 09:20:04,538 - INFO - Generated 50 student diagrams
+2025-11-29 09:20:04,539 - INFO - ======================================================================
+2025-11-29 09:20:04,539 - INFO - STEP 2: Initializing mBERT
+2025-11-29 09:20:04,539 - INFO - ======================================================================
+2025-11-29 09:20:04,540 - INFO - Loading mBERT model: bert-base-multilingual-cased on cpu
+2025-11-29 09:20:07,073 - INFO - mBERT model loaded successfully
+2025-11-29 09:20:07,073 - INFO - ======================================================================
+2025-11-29 09:20:07,073 - INFO - STEP 3: Building Graph Representations
+2025-11-29 09:20:07,073 - INFO - ======================================================================
+2025-11-29 09:20:07,073 - INFO - Building key reference graph...
+2025-11-29 09:20:08,176 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:08,176 - INFO - ======================================================================
+2025-11-29 09:20:08,178 - INFO - STEP 4: Assessing All Diagrams
+2025-11-29 09:20:08,178 - INFO - ======================================================================
+2025-11-29 09:20:09,018 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:11,168 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:11,192 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:11,211 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:11,228 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:11,476 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:11,641 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:11,789 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:11,801 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:11,942 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:12,094 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:12,104 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:12,122 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:12,258 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:12,408 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:12,683 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:12,841 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:13,085 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:13,107 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:13,252 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:13,266 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:20:13,276 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:20:13,283 - INFO - Built graph with 5 nodes and 4 edges
+2025-11-29 09:20:13,299 - INFO - Built graph with 5 nodes and 2 edges
+2025-11-29 09:20:13,309 - INFO - Built graph with 5 nodes and 2 edges
+2025-11-29 09:20:13,403 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:20:13,597 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:20:13,622 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:20:13,652 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:20:13,668 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:20:14,088 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:14,399 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:14,626 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:14,775 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:15,021 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:15,159 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:15,388 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:15,698 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:16,022 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:16,296 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:16,300 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:16,340 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:16,359 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:16,380 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:16,392 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:20:16,542 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:20:16,774 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:20:16,793 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:20:16,810 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:20:16,829 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:20:16,849 - INFO - Assessment complete for 50 diagrams
+2025-11-29 09:20:16,849 - INFO - ======================================================================
+2025-11-29 09:20:16,849 - INFO - STEP 5: Evaluation and Validation
+2025-11-29 09:20:16,851 - INFO - ======================================================================
+2025-11-29 09:20:16,866 - INFO - ============================================================
+2025-11-29 09:20:16,867 - INFO - EVALUATION RESULTS
+2025-11-29 09:20:16,867 - INFO - ============================================================
+2025-11-29 09:20:16,867 - INFO - Pearson Correlation Coefficient (r): 0.9265
+2025-11-29 09:20:16,868 - INFO - P-value: 0.000000
+2025-11-29 09:20:16,868 - INFO - Spearman Correlation Coefficient: 0.8953
+2025-11-29 09:20:16,868 - INFO - Mean Absolute Error: 2.98
+2025-11-29 09:20:16,868 - INFO - Root Mean Square Error: 3.70
+2025-11-29 09:20:16,868 - INFO - Mean Bias: +1.50
+2025-11-29 09:20:16,868 - INFO - Agreement within ±5 points: 84.0%
+2025-11-29 09:20:16,868 - INFO - Agreement within ±10 points: 100.0%
+2025-11-29 09:20:16,868 - INFO - Target correlation: 0.76
+2025-11-29 09:20:16,868 - INFO - Meets target: YES
+2025-11-29 09:20:16,868 - INFO - ============================================================
+2025-11-29 09:20:16,910 - INFO - 
+Performance by Variation Type:
+2025-11-29 09:20:16,918 - INFO -      variation_type  num_samples  pearson_r  p_value      mae     rmse  mean_bias  mean_system_score  mean_human_score
+ combination_errors            5        NaN      NaN 4.671516 5.965611   4.671516          74.671516         70.000000
+      extra_classes            5  -0.334348 0.582365 2.901956 3.327349  -0.179433          84.375271         84.554704
+     minor_semantic           10   0.581985 0.077548 2.880222 3.523908   0.761685          90.193836         89.432151
+ missing_attributes            5   0.997869 0.000118 1.463043 1.947988   1.338409          82.968818         81.630409
+    missing_classes            5   0.978682 0.003724 3.519519 3.647431   1.329699          78.759219         77.429520
+    missing_methods            5   0.608315 0.276320 1.883654 2.271134   0.931964          71.641384         70.709421
+perfect_translation            5        NaN      NaN 2.446280 2.880530   1.754707          89.857304         88.102598
+    spelling_errors            5  -0.124519 0.841868 3.147754 3.819849  -0.391105          92.197888         92.588993
+wrong_relationships            5  -0.121845 0.845247 4.002313 4.463895   4.002313          83.875049         79.872736
+2025-11-29 09:20:16,930 - INFO - 
+Confusion Matrix (Score Categories):
+2025-11-29 09:20:16,930 - INFO - System     Poor  Fair  Good  Excellent
+Human                                 
+Poor          0     0     0          0
+Fair          0     1     4          0
+Good          0     0    34          0
+Excellent     0     0     6          5
+2025-11-29 09:20:16,954 - INFO - 
+No cases with error > 10.0
+2025-11-29 09:20:16,957 - INFO - 
+Agreement Rates:
+2025-11-29 09:20:16,957 - INFO -   Within ±3 points: 60.0%
+2025-11-29 09:20:16,958 - INFO -   Within ±5 points: 84.0%
+2025-11-29 09:20:16,958 - INFO -   Within ±7 points: 92.0%
+2025-11-29 09:20:16,958 - INFO -   Within ±10 points: 100.0%
+2025-11-29 09:20:16,958 - INFO -   Within ±15 points: 100.0%
+2025-11-29 09:20:16,964 - INFO - ======================================================================
+2025-11-29 09:20:16,964 - INFO - STEP 6: Visualization and Reporting
+2025-11-29 09:20:16,965 - INFO - ======================================================================
+2025-11-29 09:20:16,966 - INFO - Creating all visualizations...
+2025-11-29 09:20:17,792 - INFO - Saved scatter plot to output/visualizations\scatter_plot.png
+2025-11-29 09:20:18,866 - INFO - Saved box plots to output/visualizations\scores_by_type.png
+2025-11-29 09:20:19,351 - INFO - Saved error distribution to output/visualizations\error_distribution.png
+2025-11-29 09:20:19,774 - INFO - Saved confusion matrix to output/visualizations\confusion_matrix.png
+2025-11-29 09:20:20,474 - INFO - Saved component scores to output/visualizations\component_scores.png
+2025-11-29 09:20:20,939 - INFO - Saved correlation by type to output/visualizations\correlation_by_type.png
+2025-11-29 09:20:20,960 - INFO - All visualizations saved to output/visualizations/
+2025-11-29 09:20:21,327 - INFO - Exported report to output\assessment_report.xlsx
+2025-11-29 09:20:21,327 - INFO - Exported results to output\results.csv
+2025-11-29 09:20:21,327 - INFO - Saved text summary to output\summary.txt
+2025-11-29 09:20:21,346 - INFO - Assessment system completed successfully
+2025-11-29 09:27:32,032 - INFO - Starting UML Diagram Assessment System
+2025-11-29 09:27:32,040 - INFO - Configuration loaded
+2025-11-29 09:27:32,040 - INFO - ======================================================================
+2025-11-29 09:27:32,040 - INFO - STEP 2: Initializing mBERT
+2025-11-29 09:27:32,040 - INFO - ======================================================================
+2025-11-29 09:27:32,045 - INFO - Loading mBERT model: bert-base-multilingual-cased on cpu
+2025-11-29 09:27:34,615 - INFO - mBERT model loaded successfully
+2025-11-29 09:27:34,615 - INFO - ======================================================================
+2025-11-29 09:27:34,615 - INFO - ITER 1: Generating UML Diagrams
+2025-11-29 09:27:34,615 - INFO - ======================================================================
+2025-11-29 09:27:34,615 - INFO - Generating key reference diagram (English)...
+2025-11-29 09:27:34,615 - INFO - Generating 50 student diagram variations (Indonesian)...
+2025-11-29 09:27:34,721 - INFO - ======================================================================
+2025-11-29 09:27:34,721 - INFO - ITER 1: Building Graph Representations
+2025-11-29 09:27:34,721 - INFO - ======================================================================
+2025-11-29 09:27:34,721 - INFO - Building key reference graph...
+2025-11-29 09:27:35,833 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:35,833 - INFO - ======================================================================
+2025-11-29 09:27:35,833 - INFO - ITER 1: Assessing All Diagrams
+2025-11-29 09:27:35,833 - INFO - ======================================================================
+2025-11-29 09:27:36,854 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:39,547 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:39,547 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:39,571 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:39,588 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:39,972 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:39,981 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:40,117 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:40,267 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:40,291 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:40,545 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:40,565 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:40,574 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:40,586 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:40,600 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:40,884 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:41,034 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:41,234 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:41,367 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:41,517 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:41,539 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:41,551 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:41,560 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:41,567 - INFO - Built graph with 5 nodes and 4 edges
+2025-11-29 09:27:41,587 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:41,688 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:27:41,832 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:27:41,936 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:27:41,947 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:27:41,954 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:27:42,294 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:42,465 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:42,630 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:42,917 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:43,098 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:43,248 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:43,424 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:43,597 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:43,783 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:43,794 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:43,808 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:43,824 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:43,836 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:43,860 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:43,869 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:43,984 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:44,097 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:44,176 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:44,295 - INFO - Built graph with 6 nodes and 3 edges
+2025-11-29 09:27:44,384 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:44,384 - INFO - Assessment complete for 50 diagrams (iter 1)
+2025-11-29 09:27:44,384 - INFO - ======================================================================
+2025-11-29 09:27:44,384 - INFO - ITER 1: Evaluation and Validation
+2025-11-29 09:27:44,384 - INFO - ======================================================================
+2025-11-29 09:27:44,407 - INFO - ============================================================
+2025-11-29 09:27:44,407 - INFO - EVALUATION RESULTS
+2025-11-29 09:27:44,407 - INFO - ============================================================
+2025-11-29 09:27:44,407 - INFO - Pearson Correlation Coefficient (r): 0.9095
+2025-11-29 09:27:44,408 - INFO - P-value: 0.000000
+2025-11-29 09:27:44,408 - INFO - Spearman Correlation Coefficient: 0.8918
+2025-11-29 09:27:44,408 - INFO - Mean Absolute Error: 3.11
+2025-11-29 09:27:44,408 - INFO - Root Mean Square Error: 4.13
+2025-11-29 09:27:44,408 - INFO - Mean Bias: +1.80
+2025-11-29 09:27:44,408 - INFO - Agreement within ±5 points: 82.0%
+2025-11-29 09:27:44,408 - INFO - Agreement within ±10 points: 94.0%
+2025-11-29 09:27:44,408 - INFO - Target correlation: 0.76
+2025-11-29 09:27:44,408 - INFO - Meets target: YES
+2025-11-29 09:27:44,408 - INFO - ============================================================
+2025-11-29 09:27:44,437 - INFO - 
+Performance by Variation Type:
+2025-11-29 09:27:44,439 - INFO -      variation_type  num_samples  pearson_r  p_value      mae     rmse  mean_bias  mean_system_score  mean_human_score
+ combination_errors            5        NaN      NaN 9.526309 9.734999   9.526309          79.526309         70.000000
+      extra_classes            5   0.287913 0.638547 3.699881 4.191684   1.579791          84.375271         82.795479
+     minor_semantic           10   0.690209 0.027164 2.373385 2.742896  -0.238165          90.152232         90.390397
+ missing_attributes            5   0.989793 0.001236 1.446416 1.663670   0.386307          76.468046         76.081739
+    missing_classes            5   0.981375 0.003043 1.860465 2.626092   1.143280          79.415749         78.272469
+    missing_methods            5   0.981879 0.002920 1.663741 1.767273   0.060848          78.013771         77.952922
+perfect_translation            5        NaN      NaN 2.635567 3.302473   2.308782          89.857304         87.548522
+    spelling_errors            5   0.501743 0.389081 2.693928 3.122078   0.676048          91.447555         90.771508
+wrong_relationships            5        NaN      NaN 2.839293 3.094119   2.839293          82.839293         80.000000
+2025-11-29 09:27:44,453 - INFO - 
+Confusion Matrix (Score Categories):
+2025-11-29 09:27:44,453 - INFO - System     Poor  Fair  Good  Excellent
+Human                                 
+Poor          0     0     0          0
+Fair          0     2     1          0
+Good          0     0    35          1
+Excellent     0     0     8          3
+2025-11-29 09:27:44,470 - WARNING - 
+3 cases with error > 10.0:
+2025-11-29 09:27:44,470 - WARNING -  diagram_id     variation_type  similarity_score  human_score     error
+student_047 combination_errors         81.122996         70.0 11.122996
+student_048 combination_errors         81.054836         70.0 11.054836
+student_046 combination_errors         81.047014         70.0 11.047014
+2025-11-29 09:27:44,470 - INFO - 
+Agreement Rates:
+2025-11-29 09:27:44,470 - INFO -   Within ±3 points: 62.0%
+2025-11-29 09:27:44,470 - INFO -   Within ±5 points: 82.0%
+2025-11-29 09:27:44,477 - INFO -   Within ±7 points: 92.0%
+2025-11-29 09:27:44,477 - INFO -   Within ±10 points: 94.0%
+2025-11-29 09:27:44,477 - INFO -   Within ±15 points: 100.0%
+2025-11-29 09:27:44,483 - INFO - ======================================================================
+2025-11-29 09:27:44,483 - INFO - ITER 1: Visualization and Reporting
+2025-11-29 09:27:44,483 - INFO - ======================================================================
+2025-11-29 09:27:44,484 - INFO - Creating all visualizations...
+2025-11-29 09:27:45,050 - INFO - Saved scatter plot to output\iter_01\visualizations\scatter_plot.png
+2025-11-29 09:27:45,950 - INFO - Saved box plots to output\iter_01\visualizations\scores_by_type.png
+2025-11-29 09:27:46,399 - INFO - Saved error distribution to output\iter_01\visualizations\error_distribution.png
+2025-11-29 09:27:46,787 - INFO - Saved confusion matrix to output\iter_01\visualizations\confusion_matrix.png
+2025-11-29 09:27:47,417 - INFO - Saved component scores to output\iter_01\visualizations\component_scores.png
+2025-11-29 09:27:47,832 - INFO - Saved correlation by type to output\iter_01\visualizations\correlation_by_type.png
+2025-11-29 09:27:47,832 - INFO - All visualizations saved to output\iter_01\visualizations/
+2025-11-29 09:27:48,194 - INFO - Exported report to output\iter_01\assessment_report.xlsx
+2025-11-29 09:27:48,194 - INFO - Exported results to output\iter_01\results.csv
+2025-11-29 09:27:48,211 - INFO - Saved text summary to output\iter_01\summary.txt
+2025-11-29 09:27:48,216 - INFO - ======================================================================
+2025-11-29 09:27:48,216 - INFO - ITER 2: Generating UML Diagrams
+2025-11-29 09:27:48,216 - INFO - ======================================================================
+2025-11-29 09:27:48,217 - INFO - Generating key reference diagram (English)...
+2025-11-29 09:27:48,217 - INFO - Generating 50 student diagram variations (Indonesian)...
+2025-11-29 09:27:48,285 - INFO - ======================================================================
+2025-11-29 09:27:48,285 - INFO - ITER 2: Building Graph Representations
+2025-11-29 09:27:48,299 - INFO - ======================================================================
+2025-11-29 09:27:48,299 - INFO - Building key reference graph...
+2025-11-29 09:27:48,300 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,301 - INFO - ======================================================================
+2025-11-29 09:27:48,301 - INFO - ITER 2: Assessing All Diagrams
+2025-11-29 09:27:48,301 - INFO - ======================================================================
+2025-11-29 09:27:48,302 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,311 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,320 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,330 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,335 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,349 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,352 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,369 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,369 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,386 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,394 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,406 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,416 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,419 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,435 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,550 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,571 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,728 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,880 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,891 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:48,906 - INFO - Built graph with 6 nodes and 7 edges
+2025-11-29 09:27:48,919 - INFO - Built graph with 5 nodes and 4 edges
+2025-11-29 09:27:48,925 - INFO - Built graph with 5 nodes and 5 edges
+2025-11-29 09:27:48,935 - INFO - Built graph with 5 nodes and 5 edges
+2025-11-29 09:27:48,935 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:48,954 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:27:48,982 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:27:48,991 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:27:49,009 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:27:49,018 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:27:49,150 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,327 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,338 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,533 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,632 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,655 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,765 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,853 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,863 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,878 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,895 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,902 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,918 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,933 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,949 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:49,978 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:50,089 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:50,101 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:50,105 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:50,118 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:50,140 - INFO - Assessment complete for 50 diagrams (iter 2)
+2025-11-29 09:27:50,140 - INFO - ======================================================================
+2025-11-29 09:27:50,140 - INFO - ITER 2: Evaluation and Validation
+2025-11-29 09:27:50,141 - INFO - ======================================================================
+2025-11-29 09:27:50,152 - INFO - ============================================================
+2025-11-29 09:27:50,152 - INFO - EVALUATION RESULTS
+2025-11-29 09:27:50,154 - INFO - ============================================================
+2025-11-29 09:27:50,154 - INFO - Pearson Correlation Coefficient (r): 0.9083
+2025-11-29 09:27:50,154 - INFO - P-value: 0.000000
+2025-11-29 09:27:50,154 - INFO - Spearman Correlation Coefficient: 0.8781
+2025-11-29 09:27:50,154 - INFO - Mean Absolute Error: 2.50
+2025-11-29 09:27:50,155 - INFO - Root Mean Square Error: 3.35
+2025-11-29 09:27:50,155 - INFO - Mean Bias: +1.19
+2025-11-29 09:27:50,155 - INFO - Agreement within ±5 points: 88.0%
+2025-11-29 09:27:50,155 - INFO - Agreement within ±10 points: 98.0%
+2025-11-29 09:27:50,156 - INFO - Target correlation: 0.76
+2025-11-29 09:27:50,156 - INFO - Meets target: YES
+2025-11-29 09:27:50,156 - INFO - ============================================================
+2025-11-29 09:27:50,180 - INFO - 
+Performance by Variation Type:
+2025-11-29 09:27:50,185 - INFO -      variation_type  num_samples  pearson_r  p_value      mae     rmse  mean_bias  mean_system_score  mean_human_score
+ combination_errors            5        NaN      NaN 4.228338 6.012380   4.228338          74.228338         70.000000
+      extra_classes            5        NaN      NaN 1.196948 1.350547   0.485990          83.071335         82.585345
+     minor_semantic           10  -0.161198 0.656401 2.850097 3.372282   0.584856          90.258392         89.673537
+ missing_attributes            5   0.741172 0.151784 3.043874 3.211496  -2.113332          74.704087         76.817419
+    missing_classes            5   0.974277 0.004933 1.244715 1.796591   1.054008          79.789253         78.735244
+    missing_methods            5   0.943717 0.015893 2.376323 2.546077   0.148781          77.825874         77.677093
+perfect_translation            5        NaN      NaN 1.241919 1.532534   1.236090          89.857304         88.621214
+    spelling_errors            5   0.825780 0.084976 1.020917 1.168087   0.758999          90.661115         89.902116
+wrong_relationships            5        NaN      NaN 4.910805 5.282537   4.910805          84.910805         80.000000
+2025-11-29 09:27:50,199 - INFO - 
+Confusion Matrix (Score Categories):
+2025-11-29 09:27:50,199 - INFO - System     Poor  Fair  Good  Excellent
+Human                                 
+Poor          0     0     0          0
+Fair          0     0     1          0
+Good          0     1    39          2
+Excellent     0     0     6          1
+2025-11-29 09:27:50,213 - WARNING - 
+1 cases with error > 10.0:
+2025-11-29 09:27:50,216 - WARNING -  diagram_id     variation_type  similarity_score  human_score     error
+student_047 combination_errors         80.622703         70.0 10.622703
+2025-11-29 09:27:50,218 - INFO - 
+Agreement Rates:
+2025-11-29 09:27:50,219 - INFO -   Within ±3 points: 70.0%
+2025-11-29 09:27:50,219 - INFO -   Within ±5 points: 88.0%
+2025-11-29 09:27:50,219 - INFO -   Within ±7 points: 92.0%
+2025-11-29 09:27:50,219 - INFO -   Within ±10 points: 98.0%
+2025-11-29 09:27:50,219 - INFO -   Within ±15 points: 100.0%
+2025-11-29 09:27:50,226 - INFO - ======================================================================
+2025-11-29 09:27:50,226 - INFO - ITER 2: Visualization and Reporting
+2025-11-29 09:27:50,227 - INFO - ======================================================================
+2025-11-29 09:27:50,228 - INFO - Creating all visualizations...
+2025-11-29 09:27:50,833 - INFO - Saved scatter plot to output\iter_02\visualizations\scatter_plot.png
+2025-11-29 09:27:51,949 - INFO - Saved box plots to output\iter_02\visualizations\scores_by_type.png
+2025-11-29 09:27:52,429 - INFO - Saved error distribution to output\iter_02\visualizations\error_distribution.png
+2025-11-29 09:27:52,861 - INFO - Saved confusion matrix to output\iter_02\visualizations\confusion_matrix.png
+2025-11-29 09:27:53,550 - INFO - Saved component scores to output\iter_02\visualizations\component_scores.png
+2025-11-29 09:27:53,999 - INFO - Saved correlation by type to output\iter_02\visualizations\correlation_by_type.png
+2025-11-29 09:27:53,999 - INFO - All visualizations saved to output\iter_02\visualizations/
+2025-11-29 09:27:54,141 - INFO - Exported report to output\iter_02\assessment_report.xlsx
+2025-11-29 09:27:54,149 - INFO - Exported results to output\iter_02\results.csv
+2025-11-29 09:27:54,150 - INFO - Saved text summary to output\iter_02\summary.txt
+2025-11-29 09:27:54,154 - INFO - ======================================================================
+2025-11-29 09:27:54,154 - INFO - ITER 3: Generating UML Diagrams
+2025-11-29 09:27:54,154 - INFO - ======================================================================
+2025-11-29 09:27:54,154 - INFO - Generating key reference diagram (English)...
+2025-11-29 09:27:54,154 - INFO - Generating 50 student diagram variations (Indonesian)...
+2025-11-29 09:27:54,217 - INFO - ======================================================================
+2025-11-29 09:27:54,217 - INFO - ITER 3: Building Graph Representations
+2025-11-29 09:27:54,232 - INFO - ======================================================================
+2025-11-29 09:27:54,232 - INFO - Building key reference graph...
+2025-11-29 09:27:54,232 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,233 - INFO - ======================================================================
+2025-11-29 09:27:54,233 - INFO - ITER 3: Assessing All Diagrams
+2025-11-29 09:27:54,233 - INFO - ======================================================================
+2025-11-29 09:27:54,234 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,244 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,252 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,261 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,268 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,383 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,565 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,589 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,601 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,637 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,657 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,687 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,704 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,724 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,749 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,942 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:54,964 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:55,392 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:55,416 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:55,432 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:55,456 - INFO - Built graph with 6 nodes and 7 edges
+2025-11-29 09:27:55,469 - INFO - Built graph with 6 nodes and 7 edges
+2025-11-29 09:27:55,485 - INFO - Built graph with 5 nodes and 2 edges
+2025-11-29 09:27:55,503 - INFO - Built graph with 5 nodes and 5 edges
+2025-11-29 09:27:55,518 - INFO - Built graph with 5 nodes and 4 edges
+2025-11-29 09:27:55,518 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:27:55,536 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:27:55,567 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:27:55,592 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:27:55,608 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:27:55,827 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:55,966 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:56,082 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:56,233 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:56,338 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:56,526 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:56,681 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:56,787 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:56,897 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:57,032 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:57,058 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:57,072 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:57,100 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:57,125 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:57,152 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:27:57,173 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:57,198 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:57,206 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:57,219 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:57,235 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:27:57,251 - INFO - Assessment complete for 50 diagrams (iter 3)
+2025-11-29 09:27:57,251 - INFO - ======================================================================
+2025-11-29 09:27:57,251 - INFO - ITER 3: Evaluation and Validation
+2025-11-29 09:27:57,251 - INFO - ======================================================================
+2025-11-29 09:27:57,251 - INFO - ============================================================
+2025-11-29 09:27:57,251 - INFO - EVALUATION RESULTS
+2025-11-29 09:27:57,251 - INFO - ============================================================
+2025-11-29 09:27:57,251 - INFO - Pearson Correlation Coefficient (r): 0.8729
+2025-11-29 09:27:57,251 - INFO - P-value: 0.000000
+2025-11-29 09:27:57,251 - INFO - Spearman Correlation Coefficient: 0.8676
+2025-11-29 09:27:57,251 - INFO - Mean Absolute Error: 3.20
+2025-11-29 09:27:57,265 - INFO - Root Mean Square Error: 4.07
+2025-11-29 09:27:57,265 - INFO - Mean Bias: +1.14
+2025-11-29 09:27:57,265 - INFO - Agreement within ±5 points: 88.0%
+2025-11-29 09:27:57,266 - INFO - Agreement within ±10 points: 96.0%
+2025-11-29 09:27:57,266 - INFO - Target correlation: 0.76
+2025-11-29 09:27:57,266 - INFO - Meets target: YES
+2025-11-29 09:27:57,267 - INFO - ============================================================
+2025-11-29 09:27:57,292 - INFO - 
+Performance by Variation Type:
+2025-11-29 09:27:57,295 - INFO -      variation_type  num_samples  pearson_r  p_value      mae     rmse  mean_bias  mean_system_score  mean_human_score
+ combination_errors            5   0.708163 0.180740 7.868395 8.429613   7.868395          77.319501         69.451106
+      extra_classes            5   0.755227 0.139912 1.571258 1.693129   0.006161          84.375271         84.369109
+     minor_semantic           10   0.916399 0.000193 3.075601 3.592802  -0.799492          82.679577         83.479069
+ missing_attributes            5   0.967812 0.006899 1.816166 2.037586   0.792174          79.101655         78.309482
+    missing_classes            5   0.974320 0.004921 1.744578 2.036900   1.429748          81.839272         80.409524
+    missing_methods            5   0.913674 0.030050 3.571780 4.673853  -2.171730          72.019777         74.191508
+perfect_translation            5        NaN      NaN 2.417810 2.984594   2.417810          89.857304         87.439495
+    spelling_errors            5  -0.283663 0.643733 2.987583 3.356157  -1.210921          91.424520         92.635441
+wrong_relationships            5        NaN      NaN 3.843282 3.972255   3.843282          83.843282         80.000000
+2025-11-29 09:27:57,306 - INFO - 
+Confusion Matrix (Score Categories):
+2025-11-29 09:27:57,306 - INFO - System     Poor  Fair  Good  Excellent
+Human                                 
+Poor          0     0     0          0
+Fair          0     0     3          0
+Good          0     0    41          1
+Excellent     0     0     4          1
+2025-11-29 09:27:57,320 - WARNING - 
+2 cases with error > 10.0:
+2025-11-29 09:27:57,323 - WARNING -  diagram_id     variation_type  similarity_score  human_score     error
+student_049 combination_errors         81.289229         70.0 11.289229
+student_050 combination_errors         81.042431         70.0 11.042431
+2025-11-29 09:27:57,325 - INFO - 
+Agreement Rates:
+2025-11-29 09:27:57,325 - INFO -   Within ±3 points: 58.0%
+2025-11-29 09:27:57,325 - INFO -   Within ±5 points: 88.0%
+2025-11-29 09:27:57,325 - INFO -   Within ±7 points: 90.0%
+2025-11-29 09:27:57,326 - INFO -   Within ±10 points: 96.0%
+2025-11-29 09:27:57,326 - INFO -   Within ±15 points: 100.0%
+2025-11-29 09:27:57,330 - INFO - ======================================================================
+2025-11-29 09:27:57,331 - INFO - ITER 3: Visualization and Reporting
+2025-11-29 09:27:57,331 - INFO - ======================================================================
+2025-11-29 09:27:57,332 - INFO - Creating all visualizations...
+2025-11-29 09:27:57,930 - INFO - Saved scatter plot to output\iter_03\visualizations\scatter_plot.png
+2025-11-29 09:27:58,931 - INFO - Saved box plots to output\iter_03\visualizations\scores_by_type.png
+2025-11-29 09:27:59,380 - INFO - Saved error distribution to output\iter_03\visualizations\error_distribution.png
+2025-11-29 09:27:59,796 - INFO - Saved confusion matrix to output\iter_03\visualizations\confusion_matrix.png
+2025-11-29 09:28:00,577 - INFO - Saved component scores to output\iter_03\visualizations\component_scores.png
+2025-11-29 09:28:01,045 - INFO - Saved correlation by type to output\iter_03\visualizations\correlation_by_type.png
+2025-11-29 09:28:01,045 - INFO - All visualizations saved to output\iter_03\visualizations/
+2025-11-29 09:28:01,180 - INFO - Exported report to output\iter_03\assessment_report.xlsx
+2025-11-29 09:28:01,180 - INFO - Exported results to output\iter_03\results.csv
+2025-11-29 09:28:01,180 - INFO - Saved text summary to output\iter_03\summary.txt
+2025-11-29 09:28:01,197 - INFO - ======================================================================
+2025-11-29 09:28:01,197 - INFO - ITER 4: Generating UML Diagrams
+2025-11-29 09:28:01,200 - INFO - ======================================================================
+2025-11-29 09:28:01,200 - INFO - Generating key reference diagram (English)...
+2025-11-29 09:28:01,200 - INFO - Generating 50 student diagram variations (Indonesian)...
+2025-11-29 09:28:01,282 - INFO - ======================================================================
+2025-11-29 09:28:01,282 - INFO - ITER 4: Building Graph Representations
+2025-11-29 09:28:01,282 - INFO - ======================================================================
+2025-11-29 09:28:01,283 - INFO - Building key reference graph...
+2025-11-29 09:28:01,283 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,284 - INFO - ======================================================================
+2025-11-29 09:28:01,284 - INFO - ITER 4: Assessing All Diagrams
+2025-11-29 09:28:01,284 - INFO - ======================================================================
+2025-11-29 09:28:01,285 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,295 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,302 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,315 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,315 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,331 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,342 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,348 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,365 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,365 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,383 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,398 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,398 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,415 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,426 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,431 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,448 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,581 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,597 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,631 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,637 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:28:01,652 - INFO - Built graph with 5 nodes and 2 edges
+2025-11-29 09:28:01,670 - INFO - Built graph with 5 nodes and 5 edges
+2025-11-29 09:28:01,683 - INFO - Built graph with 6 nodes and 7 edges
+2025-11-29 09:28:01,703 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:28:01,720 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:28:01,748 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:28:01,755 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:28:01,772 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:28:01,799 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:28:01,956 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,971 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:01,989 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:02,018 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:02,194 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:02,216 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:02,373 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:02,381 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:02,405 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:02,625 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:02,649 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:02,671 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:02,684 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:02,711 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:02,718 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:02,749 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:28:02,769 - INFO - Built graph with 6 nodes and 7 edges
+2025-11-29 09:28:02,772 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:28:02,797 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:28:02,817 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:28:02,832 - INFO - Assessment complete for 50 diagrams (iter 4)
+2025-11-29 09:28:02,833 - INFO - ======================================================================
+2025-11-29 09:28:02,833 - INFO - ITER 4: Evaluation and Validation
+2025-11-29 09:28:02,833 - INFO - ======================================================================
+2025-11-29 09:28:02,839 - INFO - ============================================================
+2025-11-29 09:28:02,839 - INFO - EVALUATION RESULTS
+2025-11-29 09:28:02,839 - INFO - ============================================================
+2025-11-29 09:28:02,839 - INFO - Pearson Correlation Coefficient (r): 0.9037
+2025-11-29 09:28:02,839 - INFO - P-value: 0.000000
+2025-11-29 09:28:02,844 - INFO - Spearman Correlation Coefficient: 0.8767
+2025-11-29 09:28:02,844 - INFO - Mean Absolute Error: 2.81
+2025-11-29 09:28:02,844 - INFO - Root Mean Square Error: 3.48
+2025-11-29 09:28:02,844 - INFO - Mean Bias: +0.91
+2025-11-29 09:28:02,845 - INFO - Agreement within ±5 points: 90.0%
+2025-11-29 09:28:02,845 - INFO - Agreement within ±10 points: 98.0%
+2025-11-29 09:28:02,845 - INFO - Target correlation: 0.76
+2025-11-29 09:28:02,845 - INFO - Meets target: YES
+2025-11-29 09:28:02,845 - INFO - ============================================================
+2025-11-29 09:28:02,871 - INFO - 
+Performance by Variation Type:
+2025-11-29 09:28:02,871 - INFO -      variation_type  num_samples  pearson_r  p_value      mae     rmse  mean_bias  mean_system_score  mean_human_score
+ combination_errors            5   0.390449 0.515802 4.839380 5.877609   4.839380          74.502932         69.663552
+      extra_classes            5   0.905861 0.034179 1.600521 1.786794   1.600521          85.027238         83.426717
+     minor_semantic           10   0.558952 0.093017 2.334037 2.714036  -0.936757          89.848453         90.785210
+ missing_attributes            5   0.981098 0.003111 2.973119 3.369071   0.875243          82.567035         81.691791
+    missing_classes            5   0.846637 0.070415 2.932094 3.301519  -1.564089          83.246036         84.810125
+    missing_methods            5   0.928172 0.022858 2.917385 3.293634  -0.279796          75.376021         75.655818
+perfect_translation            5        NaN      NaN 2.218272 2.915001   0.250148          89.857304         89.607156
+    spelling_errors            5   0.497677 0.393566 1.374935 1.593619   0.639414          90.579926         89.940513
+wrong_relationships            5   0.528539 0.359840 4.623604 4.928358   4.623604          83.875049         79.251445
+2025-11-29 09:28:02,885 - INFO - 
+Confusion Matrix (Score Categories):
+2025-11-29 09:28:02,886 - INFO - System     Poor  Fair  Good  Excellent
+Human                                 
+Poor          0     0     0          0
+Fair          0     0     3          0
+Good          0     1    33          1
+Excellent     0     0    10          2
+2025-11-29 09:28:02,898 - WARNING - 
+1 cases with error > 10.0:
+2025-11-29 09:28:02,901 - WARNING -  diagram_id     variation_type  similarity_score  human_score     error
+student_049 combination_errors         80.640922         70.0 10.640922
+2025-11-29 09:28:02,903 - INFO - 
+Agreement Rates:
+2025-11-29 09:28:02,903 - INFO -   Within ±3 points: 58.0%
+2025-11-29 09:28:02,903 - INFO -   Within ±5 points: 90.0%
+2025-11-29 09:28:02,903 - INFO -   Within ±7 points: 96.0%
+2025-11-29 09:28:02,903 - INFO -   Within ±10 points: 98.0%
+2025-11-29 09:28:02,903 - INFO -   Within ±15 points: 100.0%
+2025-11-29 09:28:02,909 - INFO - ======================================================================
+2025-11-29 09:28:02,909 - INFO - ITER 4: Visualization and Reporting
+2025-11-29 09:28:02,909 - INFO - ======================================================================
+2025-11-29 09:28:02,909 - INFO - Creating all visualizations...
+2025-11-29 09:28:03,491 - INFO - Saved scatter plot to output\iter_04\visualizations\scatter_plot.png
+2025-11-29 09:28:04,450 - INFO - Saved box plots to output\iter_04\visualizations\scores_by_type.png
+2025-11-29 09:28:04,910 - INFO - Saved error distribution to output\iter_04\visualizations\error_distribution.png
+2025-11-29 09:28:05,313 - INFO - Saved confusion matrix to output\iter_04\visualizations\confusion_matrix.png
+2025-11-29 09:28:05,982 - INFO - Saved component scores to output\iter_04\visualizations\component_scores.png
+2025-11-29 09:28:06,411 - INFO - Saved correlation by type to output\iter_04\visualizations\correlation_by_type.png
+2025-11-29 09:28:06,427 - INFO - All visualizations saved to output\iter_04\visualizations/
+2025-11-29 09:28:06,563 - INFO - Exported report to output\iter_04\assessment_report.xlsx
+2025-11-29 09:28:06,563 - INFO - Exported results to output\iter_04\results.csv
+2025-11-29 09:28:06,563 - INFO - Saved text summary to output\iter_04\summary.txt
+2025-11-29 09:28:06,574 - INFO - ======================================================================
+2025-11-29 09:28:06,574 - INFO - ITER 5: Generating UML Diagrams
+2025-11-29 09:28:06,574 - INFO - ======================================================================
+2025-11-29 09:28:06,574 - INFO - Generating key reference diagram (English)...
+2025-11-29 09:28:06,575 - INFO - Generating 50 student diagram variations (Indonesian)...
+2025-11-29 09:28:06,653 - INFO - ======================================================================
+2025-11-29 09:28:06,653 - INFO - ITER 5: Building Graph Representations
+2025-11-29 09:28:06,654 - INFO - ======================================================================
+2025-11-29 09:28:06,654 - INFO - Building key reference graph...
+2025-11-29 09:28:06,654 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,655 - INFO - ======================================================================
+2025-11-29 09:28:06,655 - INFO - ITER 5: Assessing All Diagrams
+2025-11-29 09:28:06,655 - INFO - ======================================================================
+2025-11-29 09:28:06,656 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,667 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,675 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,681 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,697 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,697 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,716 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,726 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,783 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,797 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,816 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,819 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,835 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,849 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,849 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,867 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:06,882 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,013 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,036 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,050 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,054 - INFO - Built graph with 6 nodes and 3 edges
+2025-11-29 09:28:07,070 - INFO - Built graph with 5 nodes and 4 edges
+2025-11-29 09:28:07,085 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:28:07,105 - INFO - Built graph with 5 nodes and 2 edges
+2025-11-29 09:28:07,117 - INFO - Built graph with 5 nodes and 5 edges
+2025-11-29 09:28:07,130 - INFO - Built graph with 9 nodes and 8 edges
+2025-11-29 09:28:07,133 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:28:07,173 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:28:07,188 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:28:07,206 - INFO - Built graph with 8 nodes and 8 edges
+2025-11-29 09:28:07,216 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,330 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,350 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,493 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,505 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,515 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,553 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,568 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,589 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,617 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,638 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,657 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,667 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,693 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,700 - INFO - Built graph with 7 nodes and 8 edges
+2025-11-29 09:28:07,716 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:28:07,733 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:28:07,733 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:28:07,750 - INFO - Built graph with 6 nodes and 3 edges
+2025-11-29 09:28:07,760 - INFO - Built graph with 6 nodes and 6 edges
+2025-11-29 09:28:07,766 - INFO - Assessment complete for 50 diagrams (iter 5)
+2025-11-29 09:28:07,766 - INFO - ======================================================================
+2025-11-29 09:28:07,766 - INFO - ITER 5: Evaluation and Validation
+2025-11-29 09:28:07,775 - INFO - ======================================================================
+2025-11-29 09:28:07,784 - INFO - ============================================================
+2025-11-29 09:28:07,784 - INFO - EVALUATION RESULTS
+2025-11-29 09:28:07,784 - INFO - ============================================================
+2025-11-29 09:28:07,785 - INFO - Pearson Correlation Coefficient (r): 0.8946
+2025-11-29 09:28:07,785 - INFO - P-value: 0.000000
+2025-11-29 09:28:07,785 - INFO - Spearman Correlation Coefficient: 0.8648
+2025-11-29 09:28:07,785 - INFO - Mean Absolute Error: 3.31
+2025-11-29 09:28:07,785 - INFO - Root Mean Square Error: 4.16
+2025-11-29 09:28:07,786 - INFO - Mean Bias: +2.32
+2025-11-29 09:28:07,786 - INFO - Agreement within ±5 points: 90.0%
+2025-11-29 09:28:07,786 - INFO - Agreement within ±10 points: 94.0%
+2025-11-29 09:28:07,786 - INFO - Target correlation: 0.76
+2025-11-29 09:28:07,786 - INFO - Meets target: YES
+2025-11-29 09:28:07,787 - INFO - ============================================================
+2025-11-29 09:28:07,805 - INFO - 
+Performance by Variation Type:
+2025-11-29 09:28:07,813 - INFO -      variation_type  num_samples  pearson_r  p_value      mae     rmse  mean_bias  mean_system_score  mean_human_score
+ combination_errors            5   0.700939 0.187267 7.227968 8.571648   7.227968          76.959194         69.731226
+      extra_classes            5   0.228774 0.711277 2.631536 3.173775   2.631536          85.679206         83.047670
+     minor_semantic           10   0.561840 0.090978 3.177996 3.746465   2.381025          90.219691         87.838666
+ missing_attributes            5   0.980902 0.003159 1.612063 1.881525   0.258520          79.218002         78.959482
+    missing_classes            5   0.885003 0.045997 2.349387 2.691966  -0.542186          76.632198         77.174384
+    missing_methods            5   0.991088 0.001009 2.876191 3.076703   2.876191          81.373338         78.497147
+perfect_translation            5        NaN      NaN 2.972224 3.403735   0.603031          89.857304         89.254273
+    spelling_errors            5   0.623879 0.260712 2.884808 3.475218   1.206400          90.599016         89.392616
+wrong_relationships            5   1.000000 0.000000 4.181986 4.194718   4.181986          83.843282         79.661296
+2025-11-29 09:28:07,816 - INFO - 
+Confusion Matrix (Score Categories):
+2025-11-29 09:28:07,816 - INFO - System     Poor  Fair  Good  Excellent
+Human                                 
+Poor          0     0     0          0
+Fair          0     1     1          0
+Good          0     0    40          1
+Excellent     0     0     4          3
+2025-11-29 09:28:07,833 - WARNING - 
+3 cases with error > 10.0:
+2025-11-29 09:28:07,833 - WARNING -  diagram_id     variation_type  similarity_score  human_score     error
+student_049 combination_errors         81.205214         70.0 11.205214
+student_047 combination_errors         81.042431         70.0 11.042431
+student_046 combination_errors         80.708775         70.0 10.708775
+2025-11-29 09:28:07,833 - INFO - 
+Agreement Rates:
+2025-11-29 09:28:07,840 - INFO -   Within ±3 points: 54.0%
+2025-11-29 09:28:07,840 - INFO -   Within ±5 points: 90.0%
+2025-11-29 09:28:07,841 - INFO -   Within ±7 points: 92.0%
+2025-11-29 09:28:07,841 - INFO -   Within ±10 points: 94.0%
+2025-11-29 09:28:07,841 - INFO -   Within ±15 points: 100.0%
+2025-11-29 09:28:07,845 - INFO - ======================================================================
+2025-11-29 09:28:07,845 - INFO - ITER 5: Visualization and Reporting
+2025-11-29 09:28:07,845 - INFO - ======================================================================
+2025-11-29 09:28:07,846 - INFO - Creating all visualizations...
+2025-11-29 09:28:08,423 - INFO - Saved scatter plot to output\iter_05\visualizations\scatter_plot.png
+2025-11-29 09:28:09,395 - INFO - Saved box plots to output\iter_05\visualizations\scores_by_type.png
+2025-11-29 09:28:09,861 - INFO - Saved error distribution to output\iter_05\visualizations\error_distribution.png
+2025-11-29 09:28:10,277 - INFO - Saved confusion matrix to output\iter_05\visualizations\confusion_matrix.png
+2025-11-29 09:28:11,107 - INFO - Saved component scores to output\iter_05\visualizations\component_scores.png
+2025-11-29 09:28:11,529 - INFO - Saved correlation by type to output\iter_05\visualizations\correlation_by_type.png
+2025-11-29 09:28:11,529 - INFO - All visualizations saved to output\iter_05\visualizations/
+2025-11-29 09:28:11,665 - INFO - Exported report to output\iter_05\assessment_report.xlsx
+2025-11-29 09:28:11,669 - INFO - Exported results to output\iter_05\results.csv
+2025-11-29 09:28:11,669 - INFO - Saved text summary to output\iter_05\summary.txt
